@@ -1,0 +1,31 @@
+h1 {
+  color:black;
+  margin: 1em;
+}
+
+nav {
+  display:flex;
+  background-color: #273544
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 200;
+}
+
+.body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a {
+    font-weight: 50;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a :hover {
+  text-decoration: line-through;
+
+}
+

@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  margin : 2em;
+  flex-direction: column;
+  max-width: fit-content;
+  margin:auto;
+}
+
+h1 {
+  color:red;
+  text-align: center;
+}

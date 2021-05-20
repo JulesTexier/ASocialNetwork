@@ -1,0 +1,21 @@
+.User {
+  display: flex;
+  margin : 2em;
+  flex-direction: column;
+  max-width: fit-content;
+  margin:auto;
+}
+
+.UserContent {
+  display: flex;
+  flex-direction: column;
+  align-items	:center;
+    border: 1px;
+    border-style: groove;
+    border-color: antiquewhite;
+    min-width: 250px;
+}
+
+h1 {
+  color:red;
+}
