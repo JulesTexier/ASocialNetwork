@@ -44,6 +44,7 @@ const handleFetch = (e) => {
           history.push('/')
         }
      })
+     .catch((data) => alert('error: Bad request'));
   }
 
 

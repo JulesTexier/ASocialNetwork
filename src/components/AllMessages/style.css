@@ -1,0 +1,19 @@
+.Card{
+  max-width: 200px;
+  padding:2em;
+  margin:1em;
+  border-color: grey;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+ul {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.intro {
+  text-align: center;
+}

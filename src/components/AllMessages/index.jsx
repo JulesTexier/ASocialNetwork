@@ -14,7 +14,7 @@ const Users = () => {
 
     const UsersFetch = () => {
 
-      fetch('http://localhost:1337/users', {
+      fetch('http://localhost:1337/posts', {
           method: "GET",
           headers: {
           "Authorization":`Bearer ${token}`,
@@ -36,12 +36,11 @@ const Users = () => {
     if(id){
       return (
               <div className="UsersContent">
-                <h2>Tous les Profils</h2>
+                <h2>Tous les Messages</h2>
                   <ul>
-                    {data.map((user) => (
-                    <div key={user.id} className="Card">
-                      <li><p>{user.username}</p></li>
-                      <button><Link to={"/users/" + user.id} > Voir ce profil </Link ></button>
+                    {data.map((message) => (
+                    <div key={message.id} className="Card">
+                      <li><p>{message.text}</p></li>
                     </div>
                     ))}
                   </ul>
@@ -51,7 +50,6 @@ const Users = () => {
     } else {
       return (
         <div className="intro">
-          <h3>Connecte-toi pour voir les messages et les profils</h3>
         </div>
 
       )

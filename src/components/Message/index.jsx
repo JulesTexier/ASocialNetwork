@@ -29,6 +29,7 @@ const Message = () => {
     .then((response) => response.json())
     .then((data) => {
         console.log(data)
+        window.location.reload();
       }
     )}
 
@@ -37,19 +38,15 @@ const Message = () => {
   return (
     <div className="form">
     <form onSubmit={handleFetch}>
-      <h1>Les messages</h1>
       <h2>Laisse un message</h2>
       <input type="text" value={text} onChange={(e)=>setText(e.target.value)} name="text"/>
       <input type="submit" value="Envoyer"/>
-      <h2>Les messages</h2>
-      <text>blabla</text>
     </form>
   </div>
   );
   } else {
     return (
       <div className="intro">
-        <h3>Connecte-toi pour voir les profils</h3>
       </div>
     )
   }
