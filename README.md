@@ -1,5 +1,4 @@
 # Social Network App
-![Screenshot](src/images/screenshot.png)
 
 Projet réalisé dans le cadre de la formation "The Hacking Project'.
 App réalisée seul en SPA. Utilisation de React-redux et des Cookies afin de changer les différents états de connexion des utilisateurs et les autorisations d'accès afin d'accéder à une API de création de compte et stockage des données (sur strapi).
